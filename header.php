@@ -2,20 +2,18 @@
 <html xml:lang="vi" lang="vi">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mạng bán TOUR DU LỊCH trực tuyến hàng đầu Việt nam | Du Lịch Việt</title>
-    <meta name="description"
-        content="DU LỊCH VIỆT là Công ty DU LỊCH chuyên tổ chức các TOUR DU LỊCH trong nước và các TOUR DU LỊCH nước ngoài chuyên nghiệp, uy tín. DU LỊCH VIỆT Tự hào là mạng bán tour du lịch trực tuyến hàng đầu Việt nam">
-    <meta name="keywords"
-        content="du lich, du lịch, tour du lịch, tour du lich, du lich viet, du lịch việt, du lịch việt nam du lich viet nam">
-    <link rel="canonical" href="lien-he-tour.html">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mạng bán TOUR DU LỊCH trực tuyến hàng đầu Việt nam | Du Lịch Việt</title>
+  <meta name="description" content="DU LỊCH VIỆT là Công ty DU LỊCH chuyên tổ chức các TOUR DU LỊCH trong nước và các TOUR DU LỊCH nước ngoài chuyên nghiệp, uy tín. DU LỊCH VIỆT Tự hào là mạng bán tour du lịch trực tuyến hàng đầu Việt nam">
+  <meta name="keywords" content="du lich, du lịch, tour du lịch, tour du lich, du lich viet, du lịch việt, du lịch việt nam du lich viet nam">
+  <link rel="canonical" href="lien-he-tour.html">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-    <link rel="icon" href="icon.png" type="image/x-icon">
-    <?php wp_head(); ?>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <?php wp_head(); ?>
 </head>
 
 <body>
@@ -28,7 +26,7 @@
               <div class="hotlineTop">
                 <div class="icon"><span>Hotline: <strong class="eff">1900 1177</strong></span> </div>
 
-              </div>              
+              </div>
             </div>
           </div>
           <div class="mainHead">
@@ -36,8 +34,7 @@
               <div class="wrapPoss">
                 <div class="logo">
                   <a href="lien-he-tour.html" title="Mạng bán TOUR DU LỊCH trực tuyến hàng đầu Việt nam">
-                    <h1 style="display: none">Tour du lịch</h1> <a href="lien-he-tour.html"><img alt="Tour Du Lịch Việt" width="50%"
-                        src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'?>"></a>
+                    <h1 style="display: none">Tour du lịch</h1> <a href="lien-he-tour.html"><img alt="Tour Du Lịch Việt" width="50%" src="<?php echo get_template_directory_uri() . '/assets/images/logo.png' ?>"></a>
                 </div>
                 <div class="header-tools">
                   <div class="menuTop hidden-sm hidden-xs">
@@ -274,7 +271,7 @@
                         </ul>
                       </li>
                     </ul> -->
-                    <?php wp_nav_menu( array( 'menu_class' => 'navbar-nav mx-lg-auto', 'container' => 'ul', )); ?>
+                    <?php wp_nav_menu(array('menu_class' => 'navbar-nav mx-lg-auto', 'container' => 'ul',)); ?>
                   </div>
                   <div class="menuToggle hidden-sm hidden-xs">
                     <div class="icon"><span></span></div>
@@ -286,6 +283,7 @@
                         <li><a href="tour-gia-dinh.html" class>Tour gia đình</a></li>
                         <li><a href="du-lich-doc-than.html" class>Tour mới lạ</a></li>
                         <li><a href="tuyen-dung-du-lich.html" class>Tuyển dụng Du Lịch</a></li>
+                        <li><?php echo '<a href="ha-noi.php" class>Link HN</a>'; ?></li>
                       </ul>
                     </div>
                   </div>
@@ -295,10 +293,8 @@
           </div>
           <div id="vnt-huyen-tools" class="hidden-lg hidden-md active">
             <div class="icon"></div>
-            <a class="go_in_top" href="javascript:void(0)"
-              onclick="jQuery('html,body').animate({scrollTop: 0},1000);"><i class="fa fa-chevron-up"></i></a>
-            <a href="tel:19001177" class="phone_in_top" onclick="adx_analytic.trackingGoal('643694457', 1, 'event')"><i
-                class="fa fa-phone"></i><span>liên hệ</span></a>
+            <a class="go_in_top" href="javascript:void(0)" onclick="jQuery('html,body').animate({scrollTop: 0},1000);"><i class="fa fa-chevron-up"></i></a>
+            <a href="tel:19001177" class="phone_in_top" onclick="adx_analytic.trackingGoal('643694457', 1, 'event')"><i class="fa fa-phone"></i><span>liên hệ</span></a>
           </div>
         </div>
       </div>
