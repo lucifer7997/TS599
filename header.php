@@ -283,7 +283,7 @@
                         <li><a href="tour-gia-dinh.html" class>Tour gia đình</a></li>
                         <li><a href="du-lich-doc-than.html" class>Tour mới lạ</a></li>
                         <li><a href="tuyen-dung-du-lich.html" class>Tuyển dụng Du Lịch</a></li>
-                        <li><?php echo '<a href="ha-noi.php" class>Link HN</a>'; ?></li>
+                        <a href="<?php echo esc_url( home_url( 'ha-noi.php' ) ); ?>">Page HN</a>
                       </ul>
                     </div>
                   </div>
